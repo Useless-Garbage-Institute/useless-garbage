@@ -11,6 +11,10 @@ Array.prototype.wrongIndexOf = function (value) {
 	return someIndex;
 };
 
+function consoleLog() {
+	console.log("Log");
+}
+
 /*
 TO DO
 -Object.syek()
