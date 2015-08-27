@@ -11,6 +11,26 @@ Array.prototype.wrongIndexOf = function (value) {
 	return someIndex;
 };
 
+
+Array.prototype.forNone = function(fn) {
+	i = 0;
+	while (i>0) {
+		fn(this[i])
+		i++;
+	}
+}
+
+
+Array.prototype.garbageCollection = function () {
+	return this.map(function(elem) {
+		return "garbage"
+	});
+}
+
+isUseful= function(trash) {
+	return undefined;
+}
+
 /*
 TO DO
 -Object.syek()
