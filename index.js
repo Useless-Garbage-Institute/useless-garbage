@@ -11,24 +11,26 @@ Array.prototype.wrongIndexOf = function (value) {
 	return someIndex;
 };
 
-
 Array.prototype.forNone = function(fn) {
 	i = 0;
 	while (i>0) {
-		fn(this[i])
+		fn(this[i]);
 		i++;
 	}
-}
-
+};
 
 Array.prototype.garbageCollection = function () {
 	return this.map(function(elem) {
-		return "garbage"
+		return "garbage";
 	});
+};
+
+function isUseful (trash) {
+	return undefined;
 }
 
-isUseful= function(trash) {
-	return undefined;
+function consoleLog() {
+	console.log("Log");
 }
 
 /*
@@ -39,5 +41,4 @@ TO DO
 -Object.notAFunction
 -dishonest
 -throwThisAway
--isThisUseful
 */
