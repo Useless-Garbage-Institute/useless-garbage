@@ -12,7 +12,7 @@ Array.prototype.wrongIndexOf = function (value) {
 };
 
 Array.prototype.forNone = function(fn) {
-	for (i=0; i>this.length; i++)
+	for (i=0; i>this.length; i++){
 		fn(this[i]);
 	}
 };
@@ -27,7 +27,7 @@ Array.prototype.forTooMany = function(fn){
 	for(i=0; i<= this.length; i++) {
 		fn(this[i]);
 	}
-}
+};
 
 function isUseful (trash) {
 	return undefined;
@@ -38,38 +38,38 @@ function consoleLog() {
 }
 
 throwAway = function(something){
-	throw("Away!")
-}
+	throw("Away!");
+};
 
 
 Math.firstGrader = function (numA, numB, opp) {
-	var arr = []
+	var arr = [];
 	
 	for(i=0; i<3;i++){
-	    arr.push( Math.random())
+	    arr.push( Math.random());
 	}
-	console.log(arr)
-	if (arr[0]<.1) {
+	console.log(arr);
+	if (arr[0]<0.1) {
 		numA += arr[0]*2;
 	}
-	if (arr[1]<.1) {
+	if (arr[1]<0.1) {
 		numB -= arr[1]*4;
 	}
 	switch(opp) {
 		case '+':
-			if(arr[2]<.9) return numA+numB;
+			if(arr[2]<0.9) return numA+numB;
 			else return numA-numB;
 		case '-':
-			if(arr[2]<.9) return numA-numB;
+			if(arr[2]<0.9) return numA-numB;
 			else return numA+numB;
 		case '*':
-			if(arr[2]<.9) return numA*numB;
+			if(arr[2]<0.9) return numA*numB;
 			else return numA/numB;
 		case '/':
-			if(arr[2]<.9) return numA/numB;
+			if(arr[2]<0.9) return numA/numB;
 			else return numA*numB;		
 	}
-}
+};
 
 /*
 TO DO
