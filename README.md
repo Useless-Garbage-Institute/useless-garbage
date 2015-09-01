@@ -50,6 +50,6 @@ The Useless Garbage Institute welcomes contributions from the community. First a
 Secondly, we also encourage suggestions on how to make the existing library even more hopeless, and for new ideas too add even more disfunctionality to useless-garbage. To submit your contribution for consideration, just send us a pull request.
 
 ## Guidelines for pull requests
-Your pull request is most likely to be accepeted if it adheres to the following guidelines:
+Your pull request is most likely to be accepted if it adheres to the following guidelines:
 * It is thoroughly useless, or implements something useful in a much more inefficient way than already available in built-in methods.
 * It is not malicious or ill-intentioned in anyway. Please stick to **uselessness** as a guiding principle.
