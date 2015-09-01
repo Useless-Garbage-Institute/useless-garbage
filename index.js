@@ -48,7 +48,6 @@ Math.firstGrader = function (numA, numB, opp) {
 	for(i=0; i<3;i++){
 	    arr.push( Math.random());
 	}
-	console.log(arr);
 	if (arr[0]<0.1) {
 		numA += arr[0]*2;
 	}
