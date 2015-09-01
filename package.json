@@ -4,7 +4,7 @@
   "description": "The most profoundly useless javascript library ever invented.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/kriztynna/useless-garbage/issues"
   },
-  "homepage": "https://github.com/kriztynna/useless-garbage#readme"
+  "homepage": "https://github.com/kriztynna/useless-garbage#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0"
+  }
 }
